@@ -1,6 +1,6 @@
-user:
+
   name: "Egoist"
-  github: "jayeshpatil8him-crypto"
+  github: "egoist0690"
 
 runtime:
   image: "python:3.11-slim"
