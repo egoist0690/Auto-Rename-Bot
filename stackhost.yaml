@@ -1,4 +1,4 @@
-
+user:
   name: "Egoist"
   github: "egoist0690"
 
@@ -9,7 +9,7 @@ commands:
   package: ""
   build:
     - "pip install -r requirements.txt"
-  start: "python -m TEAMZYRO"
+  start: "python bot.py"
 
 repository:
   branch: "main"
