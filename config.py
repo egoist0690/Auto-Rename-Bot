@@ -16,8 +16,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8776604643:AAHAArtcoI8ifzTQ0Z_UnCzkItCGuFJhXu8")
 
     # Database config
-    DB_NAME = os.environ.get("DB_NAME", "egoist6969bot")
-    DB_URL = os.environ.get("DB_URL", "")
+    DB_NAME = os.environ.get("DB_NAME", "autorenamefile")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://lkgprepration_db_user:XZDCxt5C0bpSCPcP@autorenamefile.rnh65rg.mongodb.net/?appName=autorenamefile")
 
     # Other configs
     BOT_UPTIME = time.time()
