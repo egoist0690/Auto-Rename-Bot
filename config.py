@@ -11,9 +11,9 @@ class Config(object):
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
     # Pyrogram client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = os.environ.get("API_ID", "31963776")
+    API_HASH = os.environ.get("API_HASH", "d352f599aff861566030a3cbba3a0f75")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8776604643:AAHAArtcoI8ifzTQ0Z_UnCzkItCGuFJhXu8")
 
     # Database config
     DB_NAME = os.environ.get("DB_NAME", "egoist6969bot")
@@ -29,13 +29,13 @@ class Config(object):
 
     ADMIN = [
         int(admin) if id_pattern.search(admin) else admin
-        for admin in os.environ.get("ADMIN", "").split()
+        for admin in os.environ.get("ADMIN", "7974236970").split()
     ]
 
-    FORCE_SUB = os.environ.get("FORCE_SUB", "")
+    FORCE_SUB = os.environ.get("FORCE_SUB", "@mangaisland_acn")
 
     LOG_CHANNEL = int(
-        os.environ.get("LOG_CHANNEL", "0")
+        os.environ.get("LOG_CHANNEL", "-1003796992309")
     )
 
     # Web response configuration
